@@ -1,0 +1,90 @@
+@import url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgba(0, 0, 0, 0.959);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    color: #fff;
+    width: 450px;
+    /* height: 200px; */
+    padding: 60px;
+    border: 6px;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.815);
+    gap: 35px;    
+    background-color: #141414;
+}
+/* for the profil picture  */
+.img {
+    border-radius: 450px;
+    margin-left: 60px;
+    margin-top: -30px;
+    height: 135px;
+    width: 135px;
+}
+/* part1 of body  */
+.part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h1 {
+    margin: 21px 0 0 20px;
+    
+}
+h3 {
+    margin: 0 0 0 45px;
+    font-size: 1em;
+}
+p {
+ margin: 30px 0 0 05px;
+ font-size: 1em;
+}
+
+
+/* now we arrange the part 2 of the body  */
+.part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;   
+}
+button {
+    border-radius: 12px;
+    height: 50px;
+    width: 320px;
+    background-color: #222020;   
+    
+    
+}
+a {
+    color: #fff;
+    font-weight: bold;
+}
+a:hover {
+    color: black;
+}
+button:hover {
+    background-color: rgba(207, 207, 9, 0.76);
+    
+}
+.attribution {
+    color: #fff;
+}
